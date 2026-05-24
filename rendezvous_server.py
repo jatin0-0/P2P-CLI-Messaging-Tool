@@ -145,3 +145,5 @@ def list_peers():
 if __name__ == "__main__":
     print(f"Rendezvous server running on port {RENDEZVOUS_PORT}")
     app.run(host="0.0.0.0", port=RENDEZVOUS_PORT, threaded=True)
+
+    

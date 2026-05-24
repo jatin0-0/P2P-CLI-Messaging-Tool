@@ -98,3 +98,5 @@ if __name__ == "__main__":
     print("Contacting STUN server...")
     ip, port = get_public_address()
     print(f"Your public address: {ip}:{port}")
+
+    
