@@ -1,1 +1,6 @@
 *.pyc
+venv/
+.venv/
+*__pycache__/
+chat.db-shm
+chat.db-wal
