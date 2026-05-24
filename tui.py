@@ -116,7 +116,7 @@ class ChatPane(ScrollableContainer):
         self.peer_id = peer_id
 
     def compose(self) -> ComposeResult:
-        yield Log(id=f"log-{self.peer_id}", highlight=True, markup=True)
+        yield Log(id=f"log-{self.peer_id}", highlight=True)
 
     def append_message(self, direction: str, body: str, ts: str, my_id: str):
         log = self.query_one(f"#log-{self.peer_id}", Log)
